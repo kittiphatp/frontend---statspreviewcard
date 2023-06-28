@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body { margin: 0; padding:0; background-color: #0a0c1b; }
+
+    /* FRAME SETUP */
+    .container {width: 1110px; height: 444px; border-radius: 4px; margin: 172px auto; padding: 0;}
+    .left {width: 570px; height: 444px; float: left; background-color: #1c1938; color: white; font-family: Arial, Helvetica, sans-serif; border-top-left-radius: 10px; border-bottom-left-radius: 10px;}
+    .right {width: 540px; height: 444px; float: right; background: linear-gradient(rgba(134, 61, 220, 0.5),rgba(134,61,220, 0.5)), url(./images/image-header-desktop.jpg); background-repeat: no-repeat; border-top-right-radius: 10px; border-bottom-right-radius: 10px;}
+
+    .details {margin-left: 72px; margin-top: 80px;}
+    h1 {font-size: 36px; margin-bottom: 24px;}
+    p {font-size: 16px; color: #848498; line-height: 1.5; margin: 0;}
+
+
+    footer {display: flex; justify-content: flex-start;}
+    .col2, .col3 {margin-left: 60px;}
+    footer > .flex > h2 { font-size: 24px; margin: 58px 0 5px 0; }
+    footer > .flex > span {text-transform: uppercase; color: #68667f; font-size: 12px; font-weight: 700; letter-spacing: 1.2px;}
+
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+
+
+<section class="container">
+  <aside class="left">
+    <div class="details">
+      <h1>
+        Get <span style="color: #ad5edc;">insights</span> that help <br>
+        your business grow.
+      </h1>
+      <p>
+        Discover the benefits of data analytics and make <br>
+        better decisions regarding revenue, customer <br>
+        experience, and overall efficiency. <br>
+      </p>
+
+      <footer>
+        <div class="flex col1">
+          <h2>10k+</h2>
+          <span>companies</span>
+        </div>
+        
+        <div class="flex col2">
+          <h2>314</h2>
+          <span>templates</span>
+        </div>
+        
+
+        <div class="flex col3">
+          <h2>12m+</h2>
+          <span>queries</span>
+        </div>
+        
+      </footer>
+    </div>
+  </aside>
+
+
+  <aside class="right"></aside>
+</section>
+
+
+      
+      
+
+        <h1>10k+</h1>
+        <p>companies</p>
+
+
+        <h1>314</h1>
+        <p>templates</p>
+
+        <h1>12m+</h1>
+        <p>queries</p>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Kittiphat Pisuittiporn</a>.
+  </div>
+</body>
+</html>
